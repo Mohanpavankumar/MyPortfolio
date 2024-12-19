@@ -3,7 +3,7 @@ const navMenu = document.getElementById("nav-menu"),
   navToggle = document.getElementById("nav-toggle"),
   navClose = document.getElementById("nav-close");
 
-/*===== MENU SHOW =====*/
+/* MENU SHOW */
 /* Validate if constant exists */
 if (navToggle) {
   navToggle.addEventListener("click", () => {
@@ -11,7 +11,7 @@ if (navToggle) {
   });
 }
 
-/*===== MENU HIDDEN =====*/
+/* MENU HIDDEN */
 /* Validate if constant exists */
 if (navClose) {
   navClose.addEventListener("click", () => {
@@ -106,8 +106,6 @@ let swiperPortfolio = new Swiper(".portfolio__container", {
     clickable: true,
   },
 
-  /* mousewheel: true,
-  keyboard: true, */
 });
 
 /* SCROLL SECTIONS ACTIVE LINK */
