@@ -418,7 +418,9 @@ img {
 }
 
 .about__description {
+  display: flex;
   text-align: center;
+  justify-content: center;
   margin-bottom: var(--mb-2-5);
 }
 
