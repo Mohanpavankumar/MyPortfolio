@@ -138,7 +138,7 @@ img {
   height: auto;
 }
 
-/*==================== REUSABLE CSS CLASSES ====================*/
+/* REUSABLE CSS CLASSES */
 .section {
   padding: 2rem 0 4rem;
   margin-bottom: 40px;
@@ -159,7 +159,7 @@ img {
   text-align: center;
 }
 
-/*==================== LAYOUT ====================*/
+/* LAYOUT */
 
 .container {
   max-width: 768px;
@@ -182,7 +182,6 @@ img {
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.08), 0 2px 4px 0 rgba(28, 27, 27, 0.468);
 }
 
-/*==================== NAV ====================*/
 .nav {
   max-width: 968px;
   height: var(--header-height);
@@ -273,7 +272,7 @@ img {
   box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
 }
 
-/*==================== HOME ====================*/
+/* HOME */
 
 .home__container {
   gap: 1rem;
@@ -355,7 +354,7 @@ img {
 .home__scroll-arrow {
   font-size: 1.25rem;
 }
-/*==================== BUTTONS ====================*/
+/* BUTTONS */
 
 .button {
   display: inline-block;
@@ -406,7 +405,7 @@ img {
   color: var(--first-color-alt);
 }
 
-/*==================== ABOUT ====================*/
+/* ABOUT */
 .about__img {
   width: 200px;
   border-radius: 0.5rem;
@@ -448,7 +447,7 @@ img {
   justify-content: center;
 }
 
-/*==================== SKILLS ====================*/
+/* SKILLS */
 
 .skills__container {
   row-gap: 0;
@@ -579,7 +578,7 @@ img {
   transform: rotate(-180deg);
 }
 
-/*==================== QUALIFICATION ====================*/
+/* QUALIFICATION */
 .qualification__tabs {
   display: flex;
   justify-content: space-evenly;
@@ -657,7 +656,7 @@ img {
   color: var(--first-color);
 }
 
-/*==================== SERVICES ====================*/
+/* SERVICES */
 .services__container {
   gap: 1.5rem;
   grid-template-columns: repeat(2, 1fr);
@@ -756,7 +755,7 @@ img {
   visibility: visible;
 }
 
-/*==================== PORTFOLIO ====================*/
+/* PORTFOLIO */
 .portfolio__container {
   overflow: initial;
 }
@@ -815,7 +814,7 @@ img {
 .swiper-pagination-bullet {
   outline: none;
 }
-/*==================== PROJECT IN MIND ====================*/
+/* PROJECT IN MIND */
 .project {
   text-align: center;
 }
@@ -844,7 +843,7 @@ img {
   justify-self: center;
 }
 
-/*==================== CONTACT ME ====================*/
+/* CONTACT ME */
 .contact__container {
   row-gap: 3rem;
 }
@@ -892,7 +891,7 @@ img {
   padding: 0.25rem 0.5rem 0.5rem 0;
 }
 
-/*==================== FOOTER ====================*/
+/* FOOTER */
 .footer {
   padding-top: 2rem;
 }
@@ -948,7 +947,7 @@ img {
   color: #fff;
 }
 
-/*========== SCROLL UP ==========*/
+/* SCROLL UP */
 .scrollup {
   position: fixed;
   right: 1rem;
@@ -975,7 +974,7 @@ img {
   bottom: 5rem;
 }
 
-/*========== SCROLL BAR ==========*/
+/* SCROLL BAR */
 ::-webkit-scrollbar {
   width: 0.6rem;
   background-color: var(--scroll-bar-color);
@@ -991,7 +990,7 @@ img {
   background-color: var(--text-color-light);
 }
 
-/*==================== MEDIA QUERIES ====================*/
+/* MEDIA QUERIES */
 /* For small devices */
 @media screen and (max-width: 380px) {
   .container {
